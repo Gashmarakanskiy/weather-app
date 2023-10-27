@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Source+Code+Pro:wght@200&display=swap');
+
+html, 
+body {
+min-height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    row-gap: 45px;
+    background-image:url(/img/nature.jpg);
+}
+
+.header {
+    display: flex;
+
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 220px;
+    padding: 4px 0px 82px;
+    /* background: linear-gradient(92deg, #1A8AAF 0%, #E55D87 100%); */
+}
+
+.title {
+    display: flex;
+    margin-bottom: 10px;
+    color: #e7f0ed;
+
+    font-family: Oswald;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: normal;  
+
+}
+
+.form {
+    /* width: 625px; */
+height: 72px;
+
+justify-content: space-between;
+flex-shrink: 0;
+border-radius: 9px;
+background: #FFF;
+}
+
+.input {
+    padding: 10px 6px 9px 37px;
+    color: #18290e;
+    flex-grow: 1;
+
+    border: none;
+    outline: none;
+
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+
+    
+}
+
+.btn {
+width: 175px;
+height: 72px;
+flex-shrink: 0;
+border-radius: 9px;
+ background: #c6f2f3; 
+border: none;
+
+padding: 10px 13px 23px 14px;
+
+
+color: #1a4a5e;
+
+font-family: Oswald;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+transition: background-color 0.2s ease-in;
+    
+}
+.btn:hover {
+    background: #65e4dd;
+}
+
+
+/* CARD */
+
+.card {
+    position: relative;
+ padding: 20px;
+ background-color: #d8f3ec;
+ border-radius: 9px;
+ margin-top: 45px;
+ display: flex;
+ flex-direction: column;
+ row-gap: 15px;
+
+ width: 515px;
+ height: 234px;
+
+ box-shadow: 4px 10px 20px 0px rgba(51, 99, 75, 0.589);
+}
+
+.card-city {
+    color: #433D3D;
+    margin-top: 5px;
+
+    font-family: Oswald;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: Oswald;
+
+    margin-bottom: 0px;
+}
+
+.card-weather {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    
+    
+
+}
+
+.card-value {
+    color: #433D3D;
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    
+}
+
+.card-img {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    margin-right: 60px;
+}
+
+.card-description {
+    color: #433D3D;
+
+    font-family: Oswald;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer {
+    box-sizing: border-box;
+    margin-top: auto;
+height: 27px;
+flex-shrink: 0;
+background: #9fd2e9;
+text-align: center;
+width: 100%;
+
+position: absolute;
+width: 100%;
+
+left: 0;
+bottom: 1px;
+height: 20px;
+}
+
